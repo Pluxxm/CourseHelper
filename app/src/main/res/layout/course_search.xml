@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center">
+        <EditText
+            android:id="@+id/et_searchText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入查找关键字"
+            android:textColorHint="#ffffff"
+            android:background="@mipmap/search_bar" />
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="12dp"
+            android:background="@mipmap/search_button"/>
+</LinearLayout>

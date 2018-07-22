@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/background">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/quick_register"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学号"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp" />
+        <EditText
+            android:id="@+id/et_user_register_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/et_background_pwd"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="昵称"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            />
+        <EditText
+            android:id="@+id/et_user_register_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/et_background_pwd"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp" />
+        <EditText
+            android:id="@+id/et_user_register_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/et_background_pwd"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="注   册"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:background="@mipmap/btn_icon_login"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btn_registerToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="已有账号？去登录"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
